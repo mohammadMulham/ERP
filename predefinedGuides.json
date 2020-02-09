@@ -1,0 +1,2789 @@
+﻿{
+  "AccountGuides": [
+    {
+      "Accounts": [
+        {
+          "Id": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "Number": 2,
+          "Code": "01",
+          "ArName": "الأرباح والخسائر",
+          "EnName": "Profit and loss",
+          "Type": 1,
+          "FinalAccountId": "00000000-0000-0000-0000-000000000000",
+          "ParentId": "a76ad96f-bab4-4230-83d1-f39a79a28918"
+        },
+        {
+          "Id": "50e156b9-370c-43df-b39b-b903c6c74681",
+          "Number": 3,
+          "Code": "02",
+          "ArName": "المتاجرة",
+          "EnName": "Trading",
+          "Type": 1,
+          "FinalAccountId": "00000000-0000-0000-0000-000000000000",
+          "ParentId": "3cd11c58-4005-41ba-92a1-096a0844726c"
+        },
+        {
+          "Id": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "Number": 1,
+          "Code": "00",
+          "ArName": "الميزانية",
+          "EnName": "Balance sheet",
+          "Type": 1,
+          "FinalAccountId": "00000000-0000-0000-0000-000000000000",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "2afd4484-67c7-4617-ad8b-40b3c2d75337",
+          "Number": 41,
+          "Code": "507",
+          "ArName": "صيانة وقطع غيار",
+          "EnName": "Maintenance",
+          "Type": 0,
+          "FinalAccountId": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "ParentId": "472f46bc-4fc4-41e3-8907-b557d9b0a6b3"
+        },
+        {
+          "Id": "b26dd386-27b7-457a-914e-48a2f6fd7c2c",
+          "Number": 38,
+          "Code": "504",
+          "ArName": "إكراميات وهدايا",
+          "EnName": "Entertainment expenses",
+          "Type": 0,
+          "FinalAccountId": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "ParentId": "472f46bc-4fc4-41e3-8907-b557d9b0a6b3"
+        },
+        {
+          "Id": "a7e62bdb-475c-4e4a-a459-5b9d0670caee",
+          "Number": 43,
+          "Code": "509",
+          "ArName": "زيوت وشحوم",
+          "EnName": "Oil",
+          "Type": 0,
+          "FinalAccountId": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "ParentId": "472f46bc-4fc4-41e3-8907-b557d9b0a6b3"
+        },
+        {
+          "Id": "f84cb1e1-386c-4d89-b034-9d51a0c31e3e",
+          "Number": 23,
+          "Code": "502",
+          "ArName": "كهرباء وماء",
+          "EnName": "Electricity and water",
+          "Type": 0,
+          "FinalAccountId": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "ParentId": "472f46bc-4fc4-41e3-8907-b557d9b0a6b3"
+        },
+        {
+          "Id": "1cae4cf5-09e3-4c6b-8813-a332e801431b",
+          "Number": 42,
+          "Code": "508",
+          "ArName": "قرطاسية ومطبوعات",
+          "EnName": "Stationary",
+          "Type": 0,
+          "FinalAccountId": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "ParentId": "472f46bc-4fc4-41e3-8907-b557d9b0a6b3"
+        },
+        {
+          "Id": "af2cecb2-427a-43b7-88a1-a64209b6c6e5",
+          "Number": 40,
+          "Code": "506",
+          "ArName": "وقود ومحروقات",
+          "EnName": "Fuel",
+          "Type": 0,
+          "FinalAccountId": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "ParentId": "472f46bc-4fc4-41e3-8907-b557d9b0a6b3"
+        },
+        {
+          "Id": "48e93371-179c-4199-ac62-a7efc8962c0f",
+          "Number": 39,
+          "Code": "505",
+          "ArName": "نقل وانتقال",
+          "EnName": "Tranportation",
+          "Type": 0,
+          "FinalAccountId": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "ParentId": "472f46bc-4fc4-41e3-8907-b557d9b0a6b3"
+        },
+        {
+          "Id": "a7668ad4-dc4d-4e96-ba17-ae81fbffa84f",
+          "Number": 24,
+          "Code": "503",
+          "ArName": "هاتف وفاكس وانترنيت",
+          "EnName": "Phone fax and Internet",
+          "Type": 0,
+          "FinalAccountId": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "ParentId": "472f46bc-4fc4-41e3-8907-b557d9b0a6b3"
+        },
+        {
+          "Id": "472f46bc-4fc4-41e3-8907-b557d9b0a6b3",
+          "Number": 8,
+          "Code": "5",
+          "ArName": "المصاريف",
+          "EnName": "Expenses",
+          "Type": 0,
+          "FinalAccountId": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "1ea059df-3719-4231-a4a9-b790419978d2",
+          "Number": 34,
+          "Code": "601",
+          "ArName": "ايرادات مختلفة",
+          "EnName": "Other revenues",
+          "Type": 0,
+          "FinalAccountId": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "ParentId": "7256d5ad-65dd-4c99-a881-eed5a2ff1b0e"
+        },
+        {
+          "Id": "6a0108ac-1dd1-4fe4-8198-df02d8b7c17f",
+          "Number": 44,
+          "Code": "510",
+          "ArName": "مصاريف متفرقة",
+          "EnName": "Other expanses",
+          "Type": 0,
+          "FinalAccountId": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "ParentId": "472f46bc-4fc4-41e3-8907-b557d9b0a6b3"
+        },
+        {
+          "Id": "7256d5ad-65dd-4c99-a881-eed5a2ff1b0e",
+          "Number": 9,
+          "Code": "6",
+          "ArName": "الايرادات",
+          "EnName": "Revenues",
+          "Type": 0,
+          "FinalAccountId": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "09c0f0f7-7b9c-47e1-8cd7-f90632cd418b",
+          "Number": 22,
+          "Code": "501",
+          "ArName": "رواتب واجور",
+          "EnName": "Salaries and wages",
+          "Type": 0,
+          "FinalAccountId": "3cd11c58-4005-41ba-92a1-096a0844726c",
+          "ParentId": "472f46bc-4fc4-41e3-8907-b557d9b0a6b3"
+        },
+        {
+          "Id": "8d59ebb3-9094-467c-aada-3f8f0e9d8250",
+          "Number": 7,
+          "Code": "4",
+          "ArName": "صافي المبيعات",
+          "EnName": "Net sales",
+          "Type": 0,
+          "FinalAccountId": "50e156b9-370c-43df-b39b-b903c6c74681",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "0c5ad60c-e73a-4ebc-a73d-41ce6568f2bc",
+          "Number": 16,
+          "Code": "32",
+          "ArName": "مردود المشتريات",
+          "EnName": "Purchases return",
+          "Type": 0,
+          "FinalAccountId": "50e156b9-370c-43df-b39b-b903c6c74681",
+          "ParentId": "6de4fe1e-3bbe-4f80-a7d8-80256c71686c"
+        },
+        {
+          "Id": "8ee42c1a-112d-49a6-ac60-47a61e48e89f",
+          "Number": 37,
+          "Code": "72",
+          "ArName": "بضاعة آخر المدة",
+          "EnName": "Closing inventory",
+          "Type": 0,
+          "FinalAccountId": "50e156b9-370c-43df-b39b-b903c6c74681",
+          "ParentId": "32943d07-59ac-4895-8785-8312cdfff4f8"
+        },
+        {
+          "Id": "51b37b89-aaec-46c9-9738-588146fe4694",
+          "Number": 20,
+          "Code": "42",
+          "ArName": "مردود المبيعات",
+          "EnName": "Sales return",
+          "Type": 0,
+          "FinalAccountId": "50e156b9-370c-43df-b39b-b903c6c74681",
+          "ParentId": "8d59ebb3-9094-467c-aada-3f8f0e9d8250"
+        },
+        {
+          "Id": "bcdb6426-5620-4a3f-9ef2-7b8c73198aa3",
+          "Number": 36,
+          "Code": "71",
+          "ArName": "بضاعة اول المدة",
+          "EnName": "Begining inventory",
+          "Type": 0,
+          "FinalAccountId": "50e156b9-370c-43df-b39b-b903c6c74681",
+          "ParentId": "32943d07-59ac-4895-8785-8312cdfff4f8"
+        },
+        {
+          "Id": "6de4fe1e-3bbe-4f80-a7d8-80256c71686c",
+          "Number": 6,
+          "Code": "3",
+          "ArName": "صافي المشتريات",
+          "EnName": "Net purchases",
+          "Type": 0,
+          "FinalAccountId": "50e156b9-370c-43df-b39b-b903c6c74681",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "32943d07-59ac-4895-8785-8312cdfff4f8",
+          "Number": 35,
+          "Code": "7",
+          "ArName": "البضاعة",
+          "EnName": "Goods",
+          "Type": 0,
+          "FinalAccountId": "50e156b9-370c-43df-b39b-b903c6c74681",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "40eea617-d56d-47b1-9598-9a45fa3a448f",
+          "Number": 18,
+          "Code": "34",
+          "ArName": "الحسم المكتسب",
+          "EnName": "Purchases discounts",
+          "Type": 0,
+          "FinalAccountId": "50e156b9-370c-43df-b39b-b903c6c74681",
+          "ParentId": "6de4fe1e-3bbe-4f80-a7d8-80256c71686c"
+        },
+        {
+          "Id": "964fef77-378f-4b24-bb88-a43607affd63",
+          "Number": 21,
+          "Code": "43",
+          "ArName": "الحسم الممنوح",
+          "EnName": "Sales discounts",
+          "Type": 0,
+          "FinalAccountId": "50e156b9-370c-43df-b39b-b903c6c74681",
+          "ParentId": "8d59ebb3-9094-467c-aada-3f8f0e9d8250"
+        },
+        {
+          "Id": "23cf8f20-e4d7-4eed-bd18-c68193a6a22d",
+          "Number": 19,
+          "Code": "41",
+          "ArName": "المبيعات",
+          "EnName": "Sales",
+          "Type": 0,
+          "FinalAccountId": "50e156b9-370c-43df-b39b-b903c6c74681",
+          "ParentId": "8d59ebb3-9094-467c-aada-3f8f0e9d8250"
+        },
+        {
+          "Id": "8151bf8a-8752-4908-81a4-f7efadcc0182",
+          "Number": 15,
+          "Code": "31",
+          "ArName": "المشتريات",
+          "EnName": "Purchases",
+          "Type": 0,
+          "FinalAccountId": "50e156b9-370c-43df-b39b-b903c6c74681",
+          "ParentId": "6de4fe1e-3bbe-4f80-a7d8-80256c71686c"
+        },
+        {
+          "Id": "f0eae423-6a16-451e-b856-ff3978ff29b7",
+          "Number": 17,
+          "Code": "33",
+          "ArName": "مصاريف نقل المشتريات",
+          "EnName": "Purchases transport expenses",
+          "Type": 0,
+          "FinalAccountId": "50e156b9-370c-43df-b39b-b903c6c74681",
+          "ParentId": "6de4fe1e-3bbe-4f80-a7d8-80256c71686c"
+        },
+        {
+          "Id": "eab2ea68-bc43-49e2-80ea-07b4f2b2ec45",
+          "Number": 28,
+          "Code": "131",
+          "ArName": "الصندوق",
+          "EnName": "Cash in hand",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "b1f7bdce-934a-40a4-949a-d7dfa3967c68"
+        },
+        {
+          "Id": "6c6e2451-a6d6-48f3-a38e-1fbcb489486d",
+          "Number": 45,
+          "Code": "121001",
+          "ArName": "زبون رقم 1",
+          "EnName": "Customer No. 1",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "fc927e8f-db41-4313-9afc-3b78fdb9e88b"
+        },
+        {
+          "Id": "e8407c57-24a3-4841-a60c-212bac566349",
+          "Number": 50,
+          "Code": "113",
+          "ArName": "أثاث ومفروشات",
+          "EnName": "Furnitures and fittings",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "e261ca9c-8748-4bb7-a301-e6092aa9b5e5"
+        },
+        {
+          "Id": "4f790c2a-d97c-4bf1-95dd-21aba963d54b",
+          "Number": 11,
+          "Code": "12",
+          "ArName": "الموجودات المتداولة",
+          "EnName": "Current assets",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "d0f176a8-5e51-49f7-85ac-990c78e8f214"
+        },
+        {
+          "Id": "27ace45c-0880-45b9-9c56-27a8d68796f3",
+          "Number": 53,
+          "Code": "124",
+          "ArName": "المخزون ",
+          "EnName": "Inventory",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "4f790c2a-d97c-4bf1-95dd-21aba963d54b"
+        },
+        {
+          "Id": "fc927e8f-db41-4313-9afc-3b78fdb9e88b",
+          "Number": 26,
+          "Code": "121",
+          "ArName": "الزبائن",
+          "EnName": "Customers",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "4f790c2a-d97c-4bf1-95dd-21aba963d54b"
+        },
+        {
+          "Id": "4c22c16c-c5f4-4af0-9990-4b20fb51aa6b",
+          "Number": 49,
+          "Code": "112",
+          "ArName": "عقارات",
+          "EnName": "Buildings",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "e261ca9c-8748-4bb7-a301-e6092aa9b5e5"
+        },
+        {
+          "Id": "28863be4-1b56-4114-98b9-6230a1cc8245",
+          "Number": 46,
+          "Code": "221001",
+          "ArName": "مورد رقم 1",
+          "EnName": "Supplier No. 1",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "f1d251ed-01bc-4230-96db-da38f4c56836"
+        },
+        {
+          "Id": "dc37df5b-2eea-467f-a8fe-63a6669d4944",
+          "Number": 5,
+          "Code": "2",
+          "ArName": "المطاليب",
+          "EnName": "Liabilities",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "3a092962-4c44-4247-87f2-7c7c521e022c",
+          "Number": 47,
+          "Code": "123",
+          "ArName": "مسحوبات الشركاء",
+          "EnName": "Partners drawings",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "4f790c2a-d97c-4bf1-95dd-21aba963d54b"
+        },
+        {
+          "Id": "401990c4-12b3-450a-821c-8a1cfb7b0381",
+          "Number": 33,
+          "Code": "222",
+          "ArName": "دائنون مختلفون",
+          "EnName": "Other creditors",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "03e86db8-83f5-4cb5-ad9c-f6c1a14dfc0c"
+        },
+        {
+          "Id": "35bcb5ed-64a9-4984-a048-8b9012fcf9b0",
+          "Number": 31,
+          "Code": "212",
+          "ArName": "القروض",
+          "EnName": "Loans",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "f494e1ef-581c-49b4-8153-b4da2f42eb69"
+        },
+        {
+          "Id": "7c730101-ac7f-4592-a827-927e9af0d69d",
+          "Number": 29,
+          "Code": "132",
+          "ArName": "المصرف",
+          "EnName": "Bank",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "b1f7bdce-934a-40a4-949a-d7dfa3967c68"
+        },
+        {
+          "Id": "84c99e08-f4e7-4ef4-8515-979674576fb2",
+          "Number": 30,
+          "Code": "211",
+          "ArName": "رأس المال",
+          "EnName": "Capital",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "f494e1ef-581c-49b4-8153-b4da2f42eb69"
+        },
+        {
+          "Id": "d0f176a8-5e51-49f7-85ac-990c78e8f214",
+          "Number": 4,
+          "Code": "1",
+          "ArName": "الموجودات",
+          "EnName": "Assets",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "4daee07e-0442-4938-846d-9c444ee4b089",
+          "Number": 27,
+          "Code": "122",
+          "ArName": "مدينون مختلفون",
+          "EnName": "Other debitors",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "4f790c2a-d97c-4bf1-95dd-21aba963d54b"
+        },
+        {
+          "Id": "00d22515-0586-41c9-aefd-9f06f8329850",
+          "Number": 52,
+          "Code": "21101",
+          "ArName": "رأسمال الشريك 1",
+          "EnName": "Partner 1 capital",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "84c99e08-f4e7-4ef4-8515-979674576fb2"
+        },
+        {
+          "Id": "f494e1ef-581c-49b4-8153-b4da2f42eb69",
+          "Number": 13,
+          "Code": "21",
+          "ArName": "المطاليب الثابتة",
+          "EnName": "Fixed liabilities",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "dc37df5b-2eea-467f-a8fe-63a6669d4944"
+        },
+        {
+          "Id": "2329113a-f44f-46fd-a159-c9a48bf4f9f0",
+          "Number": 48,
+          "Code": "12301",
+          "ArName": "مسحوبات الشريك 1",
+          "EnName": "Partner 1 drawings",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "3a092962-4c44-4247-87f2-7c7c521e022c"
+        },
+        {
+          "Id": "b1f7bdce-934a-40a4-949a-d7dfa3967c68",
+          "Number": 12,
+          "Code": "13",
+          "ArName": "الأموال الجاهزة",
+          "EnName": "Cash honding",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "d0f176a8-5e51-49f7-85ac-990c78e8f214"
+        },
+        {
+          "Id": "f1d251ed-01bc-4230-96db-da38f4c56836",
+          "Number": 32,
+          "Code": "221",
+          "ArName": "الموردون",
+          "EnName": "Suppliers",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "03e86db8-83f5-4cb5-ad9c-f6c1a14dfc0c"
+        },
+        {
+          "Id": "e261ca9c-8748-4bb7-a301-e6092aa9b5e5",
+          "Number": 10,
+          "Code": "11",
+          "ArName": "الموجودات الثابتة",
+          "EnName": "Fixed assets",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "d0f176a8-5e51-49f7-85ac-990c78e8f214"
+        },
+        {
+          "Id": "d4e4d1ad-109f-45f7-adcf-f172f04ccb20",
+          "Number": 25,
+          "Code": "111",
+          "ArName": "الأراضي",
+          "EnName": "Lands",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "e261ca9c-8748-4bb7-a301-e6092aa9b5e5"
+        },
+        {
+          "Id": "fd4b2b7d-2a14-4cb4-a583-f32c04a80b3c",
+          "Number": 54,
+          "Code": "1241",
+          "ArName": "مخزون بضاعة جاهزة آخر المدة",
+          "EnName": "Goods Closing inventory",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "27ace45c-0880-45b9-9c56-27a8d68796f3"
+        },
+        {
+          "Id": "03e86db8-83f5-4cb5-ad9c-f6c1a14dfc0c",
+          "Number": 14,
+          "Code": "22",
+          "ArName": "المطاليب المتداولة",
+          "EnName": "Current liabilities",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "dc37df5b-2eea-467f-a8fe-63a6669d4944"
+        },
+        {
+          "Id": "558c6980-3354-4915-a166-fd1899c5232a",
+          "Number": 51,
+          "Code": "114",
+          "ArName": "سيارات",
+          "EnName": "Autocars",
+          "Type": 0,
+          "FinalAccountId": "a76ad96f-bab4-4230-83d1-f39a79a28918",
+          "ParentId": "e261ca9c-8748-4bb7-a301-e6092aa9b5e5"
+        }
+      ],
+      "ArName": "الدليل البسيط",
+      "EnName": "Simple Chart",
+      "DefaultItemAccountId": "32943d07-59ac-4895-8785-8312cdfff4f8",
+      "DefaultCashAccountId": "EAB2EA68-BC43-49E2-80EA-07B4F2B2EC45",
+      "Order": 0,
+      "Id": 1
+    },
+    {
+      "Accounts": [
+        {
+          "Id": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "Number": 1,
+          "Code": "00",
+          "ArName": "الميزانية",
+          "EnName": "Balance sheet",
+          "Type": 1,
+          "FinalAccountId": "00000000-0000-0000-0000-000000000000",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "b6343a9c-0834-4c73-9aad-a9376c3b3c11",
+          "Number": 2,
+          "Code": "01",
+          "ArName": "الأرباح والخسائر",
+          "EnName": "Profit and loss",
+          "Type": 1,
+          "FinalAccountId": "00000000-0000-0000-0000-000000000000",
+          "ParentId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f"
+        },
+        {
+          "Id": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "Number": 3,
+          "Code": "02",
+          "ArName": "المتاجرة",
+          "EnName": "Trading",
+          "Type": 1,
+          "FinalAccountId": "00000000-0000-0000-0000-000000000000",
+          "ParentId": "b6343a9c-0834-4c73-9aad-a9376c3b3c11"
+        },
+        {
+          "Id": "53ad7752-089f-479d-babf-4282391adec6",
+          "Number": 4,
+          "Code": "03",
+          "ArName": "التشغيل",
+          "EnName": "Production",
+          "Type": 1,
+          "FinalAccountId": "00000000-0000-0000-0000-000000000000",
+          "ParentId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b"
+        },
+        {
+          "Id": "a394dd99-2d13-48dd-b895-cdfbe621ddf0",
+          "Number": 5,
+          "Code": "1",
+          "ArName": "الموجودات",
+          "EnName": "Assets",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "dffa0251-07ab-4922-b5af-ab1dd8c03ad2",
+          "Number": 6,
+          "Code": "11",
+          "ArName": "الموجودات الثابتة",
+          "EnName": "Fix Assets",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "a394dd99-2d13-48dd-b895-cdfbe621ddf0"
+        },
+        {
+          "Id": "477b2313-834c-4dc6-be1d-af5671901d20",
+          "Number": 7,
+          "Code": "111",
+          "ArName": "الأبنية و الأراضي",
+          "EnName": "Property & Plant",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "dffa0251-07ab-4922-b5af-ab1dd8c03ad2"
+        },
+        {
+          "Id": "5b3a129f-980c-4b36-925c-095c18fd6c62",
+          "Number": 8,
+          "Code": "12",
+          "ArName": "الموجودات المتداولة",
+          "EnName": "Current Assets",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "a394dd99-2d13-48dd-b895-cdfbe621ddf0"
+        },
+        {
+          "Id": "57cb6c1c-78ca-4ced-8ef1-7d7249033495",
+          "Number": 9,
+          "Code": "121",
+          "ArName": "الزبائن",
+          "EnName": "Customers",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "5b3a129f-980c-4b36-925c-095c18fd6c62"
+        },
+        {
+          "Id": "841d64ae-b3c5-4158-a090-68cc3b7503d6",
+          "Number": 10,
+          "Code": "12101",
+          "ArName": "زبون X",
+          "EnName": "Mr X",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "57cb6c1c-78ca-4ced-8ef1-7d7249033495"
+        },
+        {
+          "Id": "f297c6b7-5ecf-4ff3-8d93-b031cebe9623",
+          "Number": 11,
+          "Code": "122",
+          "ArName": "أوراق القبض",
+          "EnName": "Notes Rceivable",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "5b3a129f-980c-4b36-925c-095c18fd6c62"
+        },
+        {
+          "Id": "5f6657e9-f6ae-4107-9095-cc2131f65645",
+          "Number": 12,
+          "Code": "123",
+          "ArName": "المخزون",
+          "EnName": "Inventory",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "5b3a129f-980c-4b36-925c-095c18fd6c62"
+        },
+        {
+          "Id": "e57d1f16-b6dc-430e-91b3-b22549a9a91e",
+          "Number": 13,
+          "Code": "12301",
+          "ArName": "مخزون البضاعة",
+          "EnName": "Inventory",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "5f6657e9-f6ae-4107-9095-cc2131f65645"
+        },
+        {
+          "Id": "f10369b5-6388-46d0-9826-20ef1a4e576e",
+          "Number": 14,
+          "Code": "128",
+          "ArName": "المقدمات",
+          "EnName": "Prepayments",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "5b3a129f-980c-4b36-925c-095c18fd6c62"
+        },
+        {
+          "Id": "b500f755-7081-475e-a235-39e1b724bedb",
+          "Number": 15,
+          "Code": "1281",
+          "ArName": "المصاريف المدفوعة مقدماً",
+          "EnName": "Prepaid Expenses",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "f10369b5-6388-46d0-9826-20ef1a4e576e"
+        },
+        {
+          "Id": "4d354218-022c-497c-af34-3f799ece400e",
+          "Number": 16,
+          "Code": "1282",
+          "ArName": "الإيرادات المقبوضة مقدماً",
+          "EnName": "Unearned Revenues",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "f10369b5-6388-46d0-9826-20ef1a4e576e"
+        },
+        {
+          "Id": "ea6b5aff-d570-4165-87e1-6a47aa7cf52c",
+          "Number": 17,
+          "Code": "129",
+          "ArName": "حسابات مدينة أخرى",
+          "EnName": "Other Debit Accounts",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "5b3a129f-980c-4b36-925c-095c18fd6c62"
+        },
+        {
+          "Id": "2757c16b-5e1f-46dd-a2e1-340169a71073",
+          "Number": 18,
+          "Code": "13",
+          "ArName": "الموجودات الجاهزة",
+          "EnName": "Cash",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "a394dd99-2d13-48dd-b895-cdfbe621ddf0"
+        },
+        {
+          "Id": "3eb1f958-0c8c-410c-84c0-d601f2f7ff5b",
+          "Number": 19,
+          "Code": "131",
+          "ArName": "الصندوق",
+          "EnName": "Cash Box",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "2757c16b-5e1f-46dd-a2e1-340169a71073"
+        },
+        {
+          "Id": "d9bdfb51-e607-473b-84e9-67ede8e6f5b3",
+          "Number": 20,
+          "Code": "132",
+          "ArName": "المصرف",
+          "EnName": "Bank",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "2757c16b-5e1f-46dd-a2e1-340169a71073"
+        },
+        {
+          "Id": "415e907b-5a1f-48a3-84bd-eccdc28d572a",
+          "Number": 21,
+          "Code": "2",
+          "ArName": "المطاليب",
+          "EnName": "Liabilities",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "68ad6cb5-f807-4ef7-9d93-a5186121a299",
+          "Number": 22,
+          "Code": "21",
+          "ArName": "حقوق الملكية",
+          "EnName": "Owner Equity",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "415e907b-5a1f-48a3-84bd-eccdc28d572a"
+        },
+        {
+          "Id": "58caea6b-9be3-46c0-ba1e-87d741259d2d",
+          "Number": 23,
+          "Code": "22",
+          "ArName": "الموردين",
+          "EnName": "Vendors",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "415e907b-5a1f-48a3-84bd-eccdc28d572a"
+        },
+        {
+          "Id": "ad91d71d-084c-4b5b-a014-ac7cde13cdf6",
+          "Number": 24,
+          "Code": "2201",
+          "ArName": "مورد X",
+          "EnName": "Mr X",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "58caea6b-9be3-46c0-ba1e-87d741259d2d"
+        },
+        {
+          "Id": "e57bfdb1-bfbd-4cbf-a65f-4c6f53dc59f2",
+          "Number": 25,
+          "Code": "27",
+          "ArName": "الاستهلاكات",
+          "EnName": "Depreciations",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "415e907b-5a1f-48a3-84bd-eccdc28d572a"
+        },
+        {
+          "Id": "651e19a5-2c83-437b-82f2-56dcab375e5c",
+          "Number": 26,
+          "Code": "28",
+          "ArName": "المستحقات",
+          "EnName": "Accruals",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "415e907b-5a1f-48a3-84bd-eccdc28d572a"
+        },
+        {
+          "Id": "4f001ab9-37ff-42be-9272-07ce5d1cce23",
+          "Number": 27,
+          "Code": "281",
+          "ArName": "المصاريف المستحقة الدفع",
+          "EnName": "Accrued Expenses",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "651e19a5-2c83-437b-82f2-56dcab375e5c"
+        },
+        {
+          "Id": "cdf57902-4728-4a39-adbc-d6913a41955b",
+          "Number": 28,
+          "Code": "282",
+          "ArName": "الإيرادات المستحقة الغير مقبوضة",
+          "EnName": "Accrued Revenues",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "651e19a5-2c83-437b-82f2-56dcab375e5c"
+        },
+        {
+          "Id": "d035af99-b11d-4a22-84bf-1aa5fcc3e8d2",
+          "Number": 29,
+          "Code": "29",
+          "ArName": "حسابات دائنة أخرى",
+          "EnName": "Other Credit Accounts",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "415e907b-5a1f-48a3-84bd-eccdc28d572a"
+        },
+        {
+          "Id": "090278f4-2296-4652-9868-c22afd0d5cd3",
+          "Number": 30,
+          "Code": "3",
+          "ArName": "حسابات النتائج",
+          "EnName": "Closing Accounts",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "66d4d3e0-51ad-4a42-8c9b-e91e917f3369",
+          "Number": 31,
+          "Code": "31",
+          "ArName": "حسابات البضائع",
+          "EnName": "Goods Accounts",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "090278f4-2296-4652-9868-c22afd0d5cd3"
+        },
+        {
+          "Id": "b3a8e523-1781-4e07-bd87-c39976346d2a",
+          "Number": 32,
+          "Code": "311",
+          "ArName": "تكلفة البضاعة المشتراة",
+          "EnName": "Cost Of Goods Purchased",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "66d4d3e0-51ad-4a42-8c9b-e91e917f3369"
+        },
+        {
+          "Id": "805bc408-be90-4436-8c51-29376217638d",
+          "Number": 33,
+          "Code": "3111",
+          "ArName": "المشتريات",
+          "EnName": "Purchases",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "b3a8e523-1781-4e07-bd87-c39976346d2a"
+        },
+        {
+          "Id": "80550bb5-add1-4095-a28f-e906cabddffb",
+          "Number": 34,
+          "Code": "3112",
+          "ArName": "مردود المشتريات",
+          "EnName": "Purchase Returns",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "b3a8e523-1781-4e07-bd87-c39976346d2a"
+        },
+        {
+          "Id": "bc15d0f8-7371-4ce9-b403-f31b1b930664",
+          "Number": 35,
+          "Code": "3113",
+          "ArName": "مصاريف الشراء",
+          "EnName": "Purchase Expenses",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "b3a8e523-1781-4e07-bd87-c39976346d2a"
+        },
+        {
+          "Id": "6fc7272c-aa27-4e33-80f5-d58e2ebc6c5f",
+          "Number": 36,
+          "Code": "311301",
+          "ArName": "الإضافات",
+          "EnName": "Extras",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "bc15d0f8-7371-4ce9-b403-f31b1b930664"
+        },
+        {
+          "Id": "fa947db8-4185-4201-a014-1bc3a940247f",
+          "Number": 37,
+          "Code": "311302",
+          "ArName": "مصاريف نقل",
+          "EnName": "Transaction In",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "bc15d0f8-7371-4ce9-b403-f31b1b930664"
+        },
+        {
+          "Id": "75f247f6-f8d9-49ee-aca0-f2fad625c049",
+          "Number": 38,
+          "Code": "3114",
+          "ArName": "الحسم المكتسب",
+          "EnName": "Purchase Discounts",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "b3a8e523-1781-4e07-bd87-c39976346d2a"
+        },
+        {
+          "Id": "e79822f0-66a9-41de-8d5c-828b07900a36",
+          "Number": 39,
+          "Code": "312",
+          "ArName": "صافي المبيعات",
+          "EnName": "Net Sales",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "66d4d3e0-51ad-4a42-8c9b-e91e917f3369"
+        },
+        {
+          "Id": "a9a9b567-8955-446e-95e9-d6481aff5111",
+          "Number": 40,
+          "Code": "3121",
+          "ArName": "المبيعات",
+          "EnName": "Sales",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "e79822f0-66a9-41de-8d5c-828b07900a36"
+        },
+        {
+          "Id": "eb8711d7-9523-4481-b739-ed70daaf2606",
+          "Number": 41,
+          "Code": "3122",
+          "ArName": "مردود المبيعات",
+          "EnName": "Sale Returns",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "e79822f0-66a9-41de-8d5c-828b07900a36"
+        },
+        {
+          "Id": "d11d6da3-7758-4c4e-a12f-86d22304357e",
+          "Number": 42,
+          "Code": "3123",
+          "ArName": "الحسم الممنوح",
+          "EnName": "Sales Discounts",
+          "Type": 0,
+          "FinalAccountId": "b6343a9c-0834-4c73-9aad-a9376c3b3c11",
+          "ParentId": "e79822f0-66a9-41de-8d5c-828b07900a36"
+        },
+        {
+          "Id": "1ce49c8a-a3f2-4795-b362-2ea10bf3cb5c",
+          "Number": 43,
+          "Code": "313",
+          "ArName": "حسابات بضاعة أخرى",
+          "EnName": "Other Goods Accounts",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "66d4d3e0-51ad-4a42-8c9b-e91e917f3369"
+        },
+        {
+          "Id": "7a6cb6d4-9768-4b2a-aa1d-e6f6ede7036d",
+          "Number": 44,
+          "Code": "3131",
+          "ArName": "إدخال",
+          "EnName": "In Ward",
+          "Type": 0,
+          "FinalAccountId": "53ad7752-089f-479d-babf-4282391adec6",
+          "ParentId": "1ce49c8a-a3f2-4795-b362-2ea10bf3cb5c"
+        },
+        {
+          "Id": "7271c176-b2ce-40fe-812a-8b2cb5168c3e",
+          "Number": 45,
+          "Code": "3132",
+          "ArName": "مردود إدخال",
+          "EnName": "Incoming Goods Returns",
+          "Type": 0,
+          "FinalAccountId": "53ad7752-089f-479d-babf-4282391adec6",
+          "ParentId": "1ce49c8a-a3f2-4795-b362-2ea10bf3cb5c"
+        },
+        {
+          "Id": "8b87cc5b-dd28-4442-81a8-fb8a87233a4c",
+          "Number": 46,
+          "Code": "3133",
+          "ArName": "إخراج",
+          "EnName": "Out Ward",
+          "Type": 0,
+          "FinalAccountId": "53ad7752-089f-479d-babf-4282391adec6",
+          "ParentId": "1ce49c8a-a3f2-4795-b362-2ea10bf3cb5c"
+        },
+        {
+          "Id": "6a09c516-7584-437a-9d7d-5fb22fe3e939",
+          "Number": 47,
+          "Code": "3134",
+          "ArName": "مردود إخراج",
+          "EnName": "Outgoing Goods Returns",
+          "Type": 0,
+          "FinalAccountId": "53ad7752-089f-479d-babf-4282391adec6",
+          "ParentId": "1ce49c8a-a3f2-4795-b362-2ea10bf3cb5c"
+        },
+        {
+          "Id": "54196c05-e1dd-485e-9b79-fba5a18e9afb",
+          "Number": 48,
+          "Code": "3135",
+          "ArName": "حجز مشتريات",
+          "EnName": "Purchases‏ Orders",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "1ce49c8a-a3f2-4795-b362-2ea10bf3cb5c"
+        },
+        {
+          "Id": "74dd1d5c-8a2f-4f02-b1c8-01c37c3c1ad6",
+          "Number": 49,
+          "Code": "3136",
+          "ArName": "حجز مبيعات",
+          "EnName": "Sales Orders",
+          "Type": 0,
+          "FinalAccountId": "cd87539e-bd86-44a5-9d35-4d5a97ab8b8b",
+          "ParentId": "1ce49c8a-a3f2-4795-b362-2ea10bf3cb5c"
+        },
+        {
+          "Id": "20b9a161-f8d7-4861-9ebb-0af7149b4f33",
+          "Number": 50,
+          "Code": "3137",
+          "ArName": "حساب وسيط",
+          "EnName": "‏Intermediary Account",
+          "Type": 0,
+          "FinalAccountId": "c671ea4d-14fa-4704-8227-3c10b2e3e14f",
+          "ParentId": "1ce49c8a-a3f2-4795-b362-2ea10bf3cb5c"
+        },
+        {
+          "Id": "80fc30c4-6458-4271-9cb5-946d85d63801",
+          "Number": 51,
+          "Code": "32",
+          "ArName": "المصاريف",
+          "EnName": "Expenses",
+          "Type": 0,
+          "FinalAccountId": "b6343a9c-0834-4c73-9aad-a9376c3b3c11",
+          "ParentId": "090278f4-2296-4652-9868-c22afd0d5cd3"
+        },
+        {
+          "Id": "e4853e6e-0f6d-4293-9c82-3b1c6922375a",
+          "Number": 52,
+          "Code": "321",
+          "ArName": "المصاريف الإداربة و المالية",
+          "EnName": "Administrative Expense",
+          "Type": 0,
+          "FinalAccountId": "b6343a9c-0834-4c73-9aad-a9376c3b3c11",
+          "ParentId": "80fc30c4-6458-4271-9cb5-946d85d63801"
+        },
+        {
+          "Id": "42c31e7f-75d6-42e9-8b5c-f8fdd2e9862c",
+          "Number": 53,
+          "Code": "32101",
+          "ArName": "رواتب وأجور",
+          "EnName": "Salaries",
+          "Type": 0,
+          "FinalAccountId": "b6343a9c-0834-4c73-9aad-a9376c3b3c11",
+          "ParentId": "e4853e6e-0f6d-4293-9c82-3b1c6922375a"
+        },
+        {
+          "Id": "ca1cc034-4b64-43db-a05e-346127e3b599",
+          "Number": 54,
+          "Code": "322",
+          "ArName": "مصاريف البيع و التوزيع",
+          "EnName": "Selling Expenses",
+          "Type": 0,
+          "FinalAccountId": "b6343a9c-0834-4c73-9aad-a9376c3b3c11",
+          "ParentId": "80fc30c4-6458-4271-9cb5-946d85d63801"
+        },
+        {
+          "Id": "09dd6e1d-a765-4535-80ba-fe49652d1a7c",
+          "Number": 55,
+          "Code": "32201",
+          "ArName": "عمولة مبيعات",
+          "EnName": "Sales Commissions",
+          "Type": 0,
+          "FinalAccountId": "b6343a9c-0834-4c73-9aad-a9376c3b3c11",
+          "ParentId": "ca1cc034-4b64-43db-a05e-346127e3b599"
+        },
+        {
+          "Id": "736e71ed-f88d-4f56-9f19-4cee2118723f",
+          "Number": 56,
+          "Code": "323",
+          "ArName": "مصاريف متنوعة",
+          "EnName": "Miscellaneous ‏Expenses",
+          "Type": 0,
+          "FinalAccountId": "b6343a9c-0834-4c73-9aad-a9376c3b3c11",
+          "ParentId": "80fc30c4-6458-4271-9cb5-946d85d63801"
+        },
+        {
+          "Id": "b42dcc76-d880-4271-a884-baec0535c0f3",
+          "Number": 57,
+          "Code": "32301",
+          "ArName": "فروق صرف",
+          "EnName": "Exchange Rate Variances",
+          "Type": 0,
+          "FinalAccountId": "b6343a9c-0834-4c73-9aad-a9376c3b3c11",
+          "ParentId": "736e71ed-f88d-4f56-9f19-4cee2118723f"
+        },
+        {
+          "Id": "9bd051f4-aec3-4837-abc9-cadc6c1a32ef",
+          "Number": 58,
+          "Code": "33",
+          "ArName": "الإيرادات",
+          "EnName": "Revenues",
+          "Type": 0,
+          "FinalAccountId": "b6343a9c-0834-4c73-9aad-a9376c3b3c11",
+          "ParentId": "090278f4-2296-4652-9868-c22afd0d5cd3"
+        },
+        {
+          "Id": "618be590-555a-4027-b7c3-80f9b6d7161f",
+          "Number": 59,
+          "Code": "331",
+          "ArName": "إيرادات متنوعة",
+          "EnName": "Other Revenue & Gains",
+          "Type": 0,
+          "FinalAccountId": "b6343a9c-0834-4c73-9aad-a9376c3b3c11",
+          "ParentId": "9bd051f4-aec3-4837-abc9-cadc6c1a32ef"
+        }
+      ],
+      "ArName": "الدليل التجاري السوري البسيط",
+      "EnName": "Syrian Simple Chart",
+      "DefaultItemAccountId": "32943d07-59ac-4895-8785-8312cdfff4f8",
+      "DefaultCashAccountId": "EAB2EA68-BC43-49E2-80EA-07B4F2B2EC45",
+      "Order": 1,
+      "Id": 2
+    },
+    {
+      "Accounts": [
+        {
+          "Id": "ed7494e0-3bce-4602-978a-a8ff10f5a2fe",
+          "Number": 4,
+          "Code": "1",
+          "ArName": "الأصول",
+          "EnName": "Assets",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "e4b1891a-0523-438b-bddf-a14638f4489a",
+          "Number": 5,
+          "Code": "11",
+          "ArName": "الأصول الثابتة",
+          "EnName": "Fixed Assets",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "ed7494e0-3bce-4602-978a-a8ff10f5a2fe"
+        },
+        {
+          "Id": "2a730124-4df6-425c-a902-66e2d6357bf7",
+          "Number": 6,
+          "Code": "111",
+          "ArName": "أراضي",
+          "EnName": "Lands",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "e4b1891a-0523-438b-bddf-a14638f4489a"
+        },
+        {
+          "Id": "2ff43a8c-921f-4bfa-904f-dfce55a1a458",
+          "Number": 7,
+          "Code": "112",
+          "ArName": "مباني",
+          "EnName": "Buildings",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "e4b1891a-0523-438b-bddf-a14638f4489a"
+        },
+        {
+          "Id": "e68fb8a5-a3d7-4e16-ab8e-713c9072ab03",
+          "Number": 8,
+          "Code": "113",
+          "ArName": "آلات وتجهيزات",
+          "EnName": "Plants and Equipment",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "e4b1891a-0523-438b-bddf-a14638f4489a"
+        },
+        {
+          "Id": "05ac59e4-af7d-41ce-812a-4f08bbbb9403",
+          "Number": 9,
+          "Code": "114",
+          "ArName": "وسائل نقل وإنتقال",
+          "EnName": "Motor cars",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "e4b1891a-0523-438b-bddf-a14638f4489a"
+        },
+        {
+          "Id": "80313971-ec81-4bee-a781-ad0ee4da5594",
+          "Number": 10,
+          "Code": "115",
+          "ArName": "أثاث ومعدات",
+          "EnName": "Furnitures and fittings",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "e4b1891a-0523-438b-bddf-a14638f4489a"
+        },
+        {
+          "Id": "39bae387-62b5-4cf0-91ce-15bbe068fca7",
+          "Number": 11,
+          "Code": "1151",
+          "ArName": "أثاث",
+          "EnName": "Furnitures",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "80313971-ec81-4bee-a781-ad0ee4da5594"
+        },
+        {
+          "Id": "08ffd53e-79ed-40ab-a738-202132b955a3",
+          "Number": 12,
+          "Code": "1152",
+          "ArName": "آلات مكتبية",
+          "EnName": "Office Machines",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "80313971-ec81-4bee-a781-ad0ee4da5594"
+        },
+        {
+          "Id": "ffd6d7df-7a20-4c74-a176-8bf62fc6f8f9",
+          "Number": 13,
+          "Code": "1153",
+          "ArName": "حاسب إلكتروني",
+          "EnName": "Computers",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "80313971-ec81-4bee-a781-ad0ee4da5594"
+        },
+        {
+          "Id": "b7ab4446-6fee-4d9b-998c-1137bb1238a9",
+          "Number": 14,
+          "Code": "12",
+          "ArName": "مشاريع قيد التنفيذ",
+          "EnName": "Projects In Process",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "ed7494e0-3bce-4602-978a-a8ff10f5a2fe"
+        },
+        {
+          "Id": "705fd767-b2a2-42d5-9cdb-719a041ae74b",
+          "Number": 15,
+          "Code": "121",
+          "ArName": "أراضي",
+          "EnName": "Lands",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "b7ab4446-6fee-4d9b-998c-1137bb1238a9"
+        },
+        {
+          "Id": "2d704255-d45a-4b96-af56-43c68135b438",
+          "Number": 16,
+          "Code": "122",
+          "ArName": "مباني",
+          "EnName": "Buildings",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "b7ab4446-6fee-4d9b-998c-1137bb1238a9"
+        },
+        {
+          "Id": "f6666f15-6a09-4831-a50a-4736f98bf8fb",
+          "Number": 17,
+          "Code": "13",
+          "ArName": "المخزون",
+          "EnName": "Inventory",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "ed7494e0-3bce-4602-978a-a8ff10f5a2fe"
+        },
+        {
+          "Id": "ec6337a7-e3c7-4b12-bd8c-12fd9eb75f67",
+          "Number": 18,
+          "Code": "131",
+          "ArName": "مخازن بضائع بغرض البيع",
+          "EnName": "Inventory Finished Goods",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "f6666f15-6a09-4831-a50a-4736f98bf8fb"
+        },
+        {
+          "Id": "cb7d550d-1c27-4c9b-b21e-69b9d447fb1d",
+          "Number": 19,
+          "Code": "1311",
+          "ArName": "بضاعة أول المدة",
+          "EnName": "Begining inventory",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "ec6337a7-e3c7-4b12-bd8c-12fd9eb75f67"
+        },
+        {
+          "Id": "6689edff-4493-455c-bbf2-99d4e4ac8d6b",
+          "Number": 20,
+          "Code": "1312",
+          "ArName": "مخزون البضاعة",
+          "EnName": "Inventory Goods",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "ec6337a7-e3c7-4b12-bd8c-12fd9eb75f67"
+        },
+        {
+          "Id": "8a372ccd-1cff-4ede-b5c3-9b94e10f965d",
+          "Number": 21,
+          "Code": "132",
+          "ArName": "إعتمادات مستندية",
+          "EnName": "Bond loans",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "f6666f15-6a09-4831-a50a-4736f98bf8fb"
+        },
+        {
+          "Id": "0cccdc19-8a5b-41bf-bec7-71c1734c5661",
+          "Number": 22,
+          "Code": "132001",
+          "ArName": "الإجازة رقم 1",
+          "EnName": "License No. 1",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "8a372ccd-1cff-4ede-b5c3-9b94e10f965d"
+        },
+        {
+          "Id": "c6fa06e3-3a70-4603-a94b-0ecd0196012b",
+          "Number": 23,
+          "Code": "132002",
+          "ArName": "الإجازة رقم 2",
+          "EnName": "Lecense No. 2",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "8a372ccd-1cff-4ede-b5c3-9b94e10f965d"
+        },
+        {
+          "Id": "8bc198e3-9f81-4c9a-b702-eab0d1614385",
+          "Number": 24,
+          "Code": "14",
+          "ArName": "القروض",
+          "EnName": "Loans",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "ed7494e0-3bce-4602-978a-a8ff10f5a2fe"
+        },
+        {
+          "Id": "2afc0380-be4c-41bc-a501-53e33e19f2ce",
+          "Number": 25,
+          "Code": "15",
+          "ArName": "توظيفات مالية",
+          "EnName": "Investments",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "ed7494e0-3bce-4602-978a-a8ff10f5a2fe"
+        },
+        {
+          "Id": "6fb42059-21a7-40c6-a158-acd976fdffcf",
+          "Number": 26,
+          "Code": "16",
+          "ArName": "مدينون",
+          "EnName": "Creditors",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "ed7494e0-3bce-4602-978a-a8ff10f5a2fe"
+        },
+        {
+          "Id": "e5ce17fb-e138-4e08-998a-236d7720923d",
+          "Number": 27,
+          "Code": "161",
+          "ArName": "زبائن",
+          "EnName": "Customers",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "6fb42059-21a7-40c6-a158-acd976fdffcf"
+        },
+        {
+          "Id": "d1d9df83-7aa8-4172-8edf-2cd34e2ffeef",
+          "Number": 28,
+          "Code": "161001",
+          "ArName": "زبون رقم 1",
+          "EnName": "Customer No. 1",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "e5ce17fb-e138-4e08-998a-236d7720923d"
+        },
+        {
+          "Id": "f8b73625-14e8-4cf8-b020-c2ed10b55fb0",
+          "Number": 29,
+          "Code": "161002",
+          "ArName": "زبون رقم 2",
+          "EnName": "Customer No. 2",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "e5ce17fb-e138-4e08-998a-236d7720923d"
+        },
+        {
+          "Id": "2a6f9b38-0f0f-4668-ae49-0909fcd8baf5",
+          "Number": 30,
+          "Code": "162",
+          "ArName": "أوراق القبض",
+          "EnName": "Notes Receivable",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "6fb42059-21a7-40c6-a158-acd976fdffcf"
+        },
+        {
+          "Id": "4ee12a8a-ec0f-473b-b534-eb9717670ddd",
+          "Number": 31,
+          "Code": "162001",
+          "ArName": "أوراق قبض الزبون رقم 1",
+          "EnName": "N. R. Customer No. 1",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "2a6f9b38-0f0f-4668-ae49-0909fcd8baf5"
+        },
+        {
+          "Id": "9ea22967-32bc-472d-a2d5-ccc4223f64a6",
+          "Number": 32,
+          "Code": "162002",
+          "ArName": "أوراق قبض الزبون رقم 2",
+          "EnName": "N. R. Customer No. 2",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "2a6f9b38-0f0f-4668-ae49-0909fcd8baf5"
+        },
+        {
+          "Id": "d4f4adfc-a055-42bc-acc6-cac073b266f0",
+          "Number": 33,
+          "Code": "163",
+          "ArName": "تأمينات وسلف",
+          "EnName": "Imprest and Insurance",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "6fb42059-21a7-40c6-a158-acd976fdffcf"
+        },
+        {
+          "Id": "1ed873c9-e222-4ee7-937d-e1e1a9dd7825",
+          "Number": 34,
+          "Code": "1631",
+          "ArName": "سلف العاملين",
+          "EnName": "Employees Imprest",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "d4f4adfc-a055-42bc-acc6-cac073b266f0"
+        },
+        {
+          "Id": "054097f5-5a9d-44ac-9d4c-368909cd0f87",
+          "Number": 35,
+          "Code": "1632",
+          "ArName": "تأمينات مختلفة",
+          "EnName": "Anothor Insurance",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "d4f4adfc-a055-42bc-acc6-cac073b266f0"
+        },
+        {
+          "Id": "28009de6-00e2-49a2-bf27-33943c2c0c91",
+          "Number": 36,
+          "Code": "17",
+          "ArName": "حسابات مدينة مختلفة",
+          "EnName": "Another Debit Accounts",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "ed7494e0-3bce-4602-978a-a8ff10f5a2fe"
+        },
+        {
+          "Id": "1fce9b72-8bd0-4314-a217-eb426c8c946c",
+          "Number": 37,
+          "Code": "171",
+          "ArName": "مدينون مختلفون",
+          "EnName": "Anothor Debitors",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "28009de6-00e2-49a2-bf27-33943c2c0c91"
+        },
+        {
+          "Id": "be150264-e6d3-47d7-b7e5-bddc4357053b",
+          "Number": 38,
+          "Code": "18",
+          "ArName": "الأموال الجاهزة",
+          "EnName": "Cash hoding",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "ed7494e0-3bce-4602-978a-a8ff10f5a2fe"
+        },
+        {
+          "Id": "c98c17a9-d752-4ade-9d65-5cb3b11422ab",
+          "Number": 39,
+          "Code": "181",
+          "ArName": "الصندوق",
+          "EnName": "Cash in hand",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "be150264-e6d3-47d7-b7e5-bddc4357053b"
+        },
+        {
+          "Id": "274f5a94-cd39-4004-9735-d7e7749606a2",
+          "Number": 40,
+          "Code": "182",
+          "ArName": "المصارف",
+          "EnName": "Banks",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "be150264-e6d3-47d7-b7e5-bddc4357053b"
+        },
+        {
+          "Id": "5ff76b57-342c-42d1-abcb-e8aedd756d2e",
+          "Number": 41,
+          "Code": "1821",
+          "ArName": "مصرف رقم 1",
+          "EnName": "Bank No. 1",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "274f5a94-cd39-4004-9735-d7e7749606a2"
+        },
+        {
+          "Id": "bdb97573-3ea3-4e44-bd52-2633bc728572",
+          "Number": 42,
+          "Code": "1822",
+          "ArName": "مصرف رقم 2",
+          "EnName": "Bank No. 2",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "274f5a94-cd39-4004-9735-d7e7749606a2"
+        },
+        {
+          "Id": "b7bd2308-1dd0-42fa-8da4-37f5298b5141",
+          "Number": 43,
+          "Code": "2",
+          "ArName": "الخصوم",
+          "EnName": "Liabilities",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "d807bf7b-e938-4bf1-b32c-96c74a6375c1",
+          "Number": 44,
+          "Code": "21",
+          "ArName": "رأس المال",
+          "EnName": "Capital",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "b7bd2308-1dd0-42fa-8da4-37f5298b5141"
+        },
+        {
+          "Id": "fed0e5ac-4767-46b4-8b34-b5d45108a495",
+          "Number": 45,
+          "Code": "211",
+          "ArName": "رأس مال الشريك 1",
+          "EnName": "Partner 1 Capital 1",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "d807bf7b-e938-4bf1-b32c-96c74a6375c1"
+        },
+        {
+          "Id": "f8f57eae-caab-4fe9-8d46-e7420fbf4034",
+          "Number": 46,
+          "Code": "212",
+          "ArName": "رأس مال الشريك 2",
+          "EnName": "Partner 2 Capital 2",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "d807bf7b-e938-4bf1-b32c-96c74a6375c1"
+        },
+        {
+          "Id": "bb8fb3af-63ee-4c32-84c6-522f8064913b",
+          "Number": 47,
+          "Code": "22",
+          "ArName": "الإحتياطي",
+          "EnName": "Reserves",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "b7bd2308-1dd0-42fa-8da4-37f5298b5141"
+        },
+        {
+          "Id": "f818d281-58be-447f-b018-17c386484caf",
+          "Number": 48,
+          "Code": "221",
+          "ArName": "إحتياطي إختياري",
+          "EnName": "Voluntary Reserves",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "bb8fb3af-63ee-4c32-84c6-522f8064913b"
+        },
+        {
+          "Id": "c1431f4f-60f0-4475-b98f-db75d1ec938b",
+          "Number": 49,
+          "Code": "222",
+          "ArName": "إحتياطي قانوني",
+          "EnName": "Legal Resereves",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "bb8fb3af-63ee-4c32-84c6-522f8064913b"
+        },
+        {
+          "Id": "4c1935f9-133b-49b2-9150-17a61f60417e",
+          "Number": 50,
+          "Code": "223",
+          "ArName": "فائض مرحل",
+          "EnName": "Posted surplus",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "bb8fb3af-63ee-4c32-84c6-522f8064913b"
+        },
+        {
+          "Id": "259c1649-87b1-4ac1-873d-524e02660978",
+          "Number": 51,
+          "Code": "23",
+          "ArName": "الإهتلاكات",
+          "EnName": "Deprecations",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "b7bd2308-1dd0-42fa-8da4-37f5298b5141"
+        },
+        {
+          "Id": "9f3ff8a3-30fd-4362-91e0-7daddf2ecd7d",
+          "Number": 52,
+          "Code": "231",
+          "ArName": "إهتلاك مباني",
+          "EnName": "Buildings Deprecation",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "259c1649-87b1-4ac1-873d-524e02660978"
+        },
+        {
+          "Id": "5a56a0bf-3652-4360-9482-a4b2502e1b6b",
+          "Number": 53,
+          "Code": "232",
+          "ArName": "إهتلاك آلات ومعدات",
+          "EnName": "Equipment Deprecation",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "259c1649-87b1-4ac1-873d-524e02660978"
+        },
+        {
+          "Id": "135911ca-cd79-4aa2-b798-8221fc4e327c",
+          "Number": 54,
+          "Code": "233",
+          "ArName": "إهتلاك وسائل النقل",
+          "EnName": "Motor car Deprecation",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "259c1649-87b1-4ac1-873d-524e02660978"
+        },
+        {
+          "Id": "0bdcaca0-f8c9-47e8-a985-f37e2699983e",
+          "Number": 55,
+          "Code": "234",
+          "ArName": "إهتلاك الأثاث ومعدات المكاتب",
+          "EnName": "Furniture and fittings Deprecation",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "259c1649-87b1-4ac1-873d-524e02660978"
+        },
+        {
+          "Id": "710bf869-d2de-4137-a291-ff0300bb636e",
+          "Number": 56,
+          "Code": "24",
+          "ArName": "القروض",
+          "EnName": "Loans",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "b7bd2308-1dd0-42fa-8da4-37f5298b5141"
+        },
+        {
+          "Id": "9af6ed1b-4851-46d1-a201-296c6e7ca0cd",
+          "Number": 57,
+          "Code": "241",
+          "ArName": "قروض طويلة الأجل",
+          "EnName": "Long term Loans",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "710bf869-d2de-4137-a291-ff0300bb636e"
+        },
+        {
+          "Id": "aa1f5497-b7b8-4e28-8774-2bfe4c4f7604",
+          "Number": 58,
+          "Code": "242",
+          "ArName": "قروض قصيرة الأجل",
+          "EnName": "Short term Loans",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "710bf869-d2de-4137-a291-ff0300bb636e"
+        },
+        {
+          "Id": "67278c56-3205-4e7e-9b58-2d562ba16195",
+          "Number": 59,
+          "Code": "25",
+          "ArName": "دائنون",
+          "EnName": "Accounts Payable",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "b7bd2308-1dd0-42fa-8da4-37f5298b5141"
+        },
+        {
+          "Id": "939904ef-abac-4543-9ae3-46ee88e8e7ca",
+          "Number": 60,
+          "Code": "251",
+          "ArName": "موردون",
+          "EnName": "Vendors",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "67278c56-3205-4e7e-9b58-2d562ba16195"
+        },
+        {
+          "Id": "9ccd660b-f89f-4783-ac26-af63a85b30dd",
+          "Number": 61,
+          "Code": "251001",
+          "ArName": "المورد رقم 1",
+          "EnName": "Vendor No. 1",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "939904ef-abac-4543-9ae3-46ee88e8e7ca"
+        },
+        {
+          "Id": "ac572737-67d1-40a5-b15a-3cb3516df6e0",
+          "Number": 62,
+          "Code": "251002",
+          "ArName": "المورد رقم 2",
+          "EnName": "Vendor No. 2",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "939904ef-abac-4543-9ae3-46ee88e8e7ca"
+        },
+        {
+          "Id": "83389d5d-ae9c-4a4a-af4c-f9d75ef6d2a0",
+          "Number": 63,
+          "Code": "252",
+          "ArName": "أوراق الدفع",
+          "EnName": "Notes Payable",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "67278c56-3205-4e7e-9b58-2d562ba16195"
+        },
+        {
+          "Id": "ef6a287a-acef-4944-a6fe-f626d5f8dd7c",
+          "Number": 64,
+          "Code": "252001",
+          "ArName": "أوراق الدفع للمورد رقم 1",
+          "EnName": "Notes payable for Vendor 1",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "83389d5d-ae9c-4a4a-af4c-f9d75ef6d2a0"
+        },
+        {
+          "Id": "9f5c5ea3-c552-4c75-9e86-ecd180c3213e",
+          "Number": 65,
+          "Code": "252002",
+          "ArName": "أوراق الدفع للمورد رقم 2",
+          "EnName": "Notes Payable for Vendor 2",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "83389d5d-ae9c-4a4a-af4c-f9d75ef6d2a0"
+        },
+        {
+          "Id": "81931df6-f524-46f3-bab1-919883309eb4",
+          "Number": 66,
+          "Code": "253",
+          "ArName": "دائنون متنوعون",
+          "EnName": "Another Creditors",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "67278c56-3205-4e7e-9b58-2d562ba16195"
+        },
+        {
+          "Id": "0eea6b57-e1ad-445a-b440-e87622840cb9",
+          "Number": 67,
+          "Code": "2531",
+          "ArName": "تأمينات مختلفة للغير",
+          "EnName": "Several Insurance for others",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "81931df6-f524-46f3-bab1-919883309eb4"
+        },
+        {
+          "Id": "2cde507b-7e4a-4f80-b1b7-9eedf0b6ddd0",
+          "Number": 68,
+          "Code": "2532",
+          "ArName": "الدوائر الجمركية",
+          "EnName": "Customs",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "81931df6-f524-46f3-bab1-919883309eb4"
+        },
+        {
+          "Id": "549360d7-b668-4dcc-9e7a-27bc8985fbae",
+          "Number": 69,
+          "Code": "2533",
+          "ArName": "الدوائر المالية",
+          "EnName": "Customs1",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "81931df6-f524-46f3-bab1-919883309eb4"
+        },
+        {
+          "Id": "604bf674-db6e-4989-a8e0-f3757d5cdfab",
+          "Number": 70,
+          "Code": "2534",
+          "ArName": "التأمينات الاجتماعية",
+          "EnName": "Customs2",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "81931df6-f524-46f3-bab1-919883309eb4"
+        },
+        {
+          "Id": "8736d67e-bddb-4878-9bb4-e29418e05170",
+          "Number": 71,
+          "Code": "26",
+          "ArName": "حسابات دائنة مختلفة",
+          "EnName": "Another Accounts Payable",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "b7bd2308-1dd0-42fa-8da4-37f5298b5141"
+        },
+        {
+          "Id": "fe354e70-1cc5-4d28-b03d-b418bf673fea",
+          "Number": 72,
+          "Code": "261",
+          "ArName": "دائنون مختلفون",
+          "EnName": "Suppliers",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "8736d67e-bddb-4878-9bb4-e29418e05170"
+        },
+        {
+          "Id": "8d2ba49a-a9f7-4339-9637-eb3797e9a0e4",
+          "Number": 73,
+          "Code": "262",
+          "ArName": "مصروفات مستحقة",
+          "EnName": "Accrud Expenses",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "8736d67e-bddb-4878-9bb4-e29418e05170"
+        },
+        {
+          "Id": "877216fc-5fc8-4182-bf73-b71a173c45d5",
+          "Number": 74,
+          "Code": "2621",
+          "ArName": "أجور مستحقة",
+          "EnName": "Accrud Wages",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "8d2ba49a-a9f7-4339-9637-eb3797e9a0e4"
+        },
+        {
+          "Id": "b44c44ff-2bd9-4e4d-95df-5744adf20fc7",
+          "Number": 75,
+          "Code": "2622",
+          "ArName": "إيحارات مستحقة",
+          "EnName": "Accrud Rents",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "8d2ba49a-a9f7-4339-9637-eb3797e9a0e4"
+        },
+        {
+          "Id": "1fc18d73-2d9e-42d3-be90-b090ad4cb86b",
+          "Number": 76,
+          "Code": "2623",
+          "ArName": "تعويضات للغير مستحقة",
+          "EnName": "Accrud1",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "8d2ba49a-a9f7-4339-9637-eb3797e9a0e4"
+        },
+        {
+          "Id": "30783009-d604-425e-a218-e286f743da1b",
+          "Number": 77,
+          "Code": "2624",
+          "ArName": "مصروفات سابقة ومستحقة",
+          "EnName": "Accrud2",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "8d2ba49a-a9f7-4339-9637-eb3797e9a0e4"
+        },
+        {
+          "Id": "c4dbdb4e-a1ba-4019-b129-706dab48d992",
+          "Number": 78,
+          "Code": "263",
+          "ArName": "إيرادات مقبوضة مقدماً",
+          "EnName": "acc263",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "8736d67e-bddb-4878-9bb4-e29418e05170"
+        },
+        {
+          "Id": "80d53894-ddf3-430f-b641-baa934f8608a",
+          "Number": 79,
+          "Code": "2631",
+          "ArName": "إعانات مقبوضة مقدماً",
+          "EnName": "acc2631",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "c4dbdb4e-a1ba-4019-b129-706dab48d992"
+        },
+        {
+          "Id": "17b5327f-aa98-4732-adc5-d62d78299b28",
+          "Number": 80,
+          "Code": "2632",
+          "ArName": "إيجارات مقبوضة مقدماً",
+          "EnName": "acc2632",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "c4dbdb4e-a1ba-4019-b129-706dab48d992"
+        },
+        {
+          "Id": "6c692415-ce64-411b-9476-01a69a2b429c",
+          "Number": 81,
+          "Code": "2633",
+          "ArName": "تعويضات على الغير مقبوضة مقدماً",
+          "EnName": "acc2633",
+          "Type": 0,
+          "FinalAccountId": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "ParentId": "c4dbdb4e-a1ba-4019-b129-706dab48d992"
+        },
+        {
+          "Id": "225fee79-676f-4fc2-955b-5f50b5ec626a",
+          "Number": 82,
+          "Code": "3",
+          "ArName": "الاستخدامات",
+          "EnName": "Expanses",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "a2eacb59-fffc-4eaf-93f8-9658d48e1a47",
+          "Number": 83,
+          "Code": "31",
+          "ArName": "الأجور",
+          "EnName": "Wages and salaries",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "225fee79-676f-4fc2-955b-5f50b5ec626a"
+        },
+        {
+          "Id": "80d5c40a-114f-4796-af23-7cf8598f0fef",
+          "Number": 84,
+          "Code": "311",
+          "ArName": "أجور نقدية",
+          "EnName": "Cash wages",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "a2eacb59-fffc-4eaf-93f8-9658d48e1a47"
+        },
+        {
+          "Id": "1ff509ec-7ff5-44cc-ad9d-7c77b409e483",
+          "Number": 85,
+          "Code": "3111",
+          "ArName": "أجور العمال",
+          "EnName": "Worker wages",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "80d5c40a-114f-4796-af23-7cf8598f0fef"
+        },
+        {
+          "Id": "fd4d0ccf-7a6c-46b5-9e1e-e9fecb9cb0b5",
+          "Number": 86,
+          "Code": "3112",
+          "ArName": "أجور الإداريين",
+          "EnName": "Adminstritives wages",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "80d5c40a-114f-4796-af23-7cf8598f0fef"
+        },
+        {
+          "Id": "e43c00ce-29cd-47c3-871d-a2f59b1b8333",
+          "Number": 87,
+          "Code": "3113",
+          "ArName": "مكافآت",
+          "EnName": "Bonuses",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "80d5c40a-114f-4796-af23-7cf8598f0fef"
+        },
+        {
+          "Id": "a7f658df-7b69-40e5-a4e3-fc8950275f35",
+          "Number": 88,
+          "Code": "3114",
+          "ArName": "تعويضات",
+          "EnName": "Componsation",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "80d5c40a-114f-4796-af23-7cf8598f0fef"
+        },
+        {
+          "Id": "6f0983c6-c563-4d3e-b83d-40dd0e694c2f",
+          "Number": 89,
+          "Code": "312",
+          "ArName": "مزايا عينية",
+          "EnName": "Fringe Benefits",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "a2eacb59-fffc-4eaf-93f8-9658d48e1a47"
+        },
+        {
+          "Id": "3c912c1f-5b38-4213-81e6-c6b3e0bf00cb",
+          "Number": 90,
+          "Code": "3121",
+          "ArName": "السكن",
+          "EnName": "Housing",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "6f0983c6-c563-4d3e-b83d-40dd0e694c2f"
+        },
+        {
+          "Id": "93ede906-3eb8-43f4-939d-9654168b4c23",
+          "Number": 91,
+          "Code": "3122",
+          "ArName": "العلاج",
+          "EnName": "Medicine",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "6f0983c6-c563-4d3e-b83d-40dd0e694c2f"
+        },
+        {
+          "Id": "04e8d183-9656-49d2-8890-67aee0b5f637",
+          "Number": 92,
+          "Code": "32",
+          "ArName": "مصاريف البضاعة",
+          "EnName": "Goods Expenses",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "225fee79-676f-4fc2-955b-5f50b5ec626a"
+        },
+        {
+          "Id": "3a1b493e-1a8f-44eb-a2da-f06e9f297656",
+          "Number": 93,
+          "Code": "321",
+          "ArName": "مواد تعبئة وتغليف",
+          "EnName": "Packaging Materials",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "04e8d183-9656-49d2-8890-67aee0b5f637"
+        },
+        {
+          "Id": "baa3bb28-a458-4a5d-bca0-87af2b06f660",
+          "Number": 94,
+          "Code": "322",
+          "ArName": "مصاريف تشغيل لدى الغير",
+          "EnName": "Operating Expneses",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "04e8d183-9656-49d2-8890-67aee0b5f637"
+        },
+        {
+          "Id": "b2efff73-5d03-4c8b-845e-50f92342efca",
+          "Number": 95,
+          "Code": "323",
+          "ArName": "مخلفات",
+          "EnName": "Residue",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "04e8d183-9656-49d2-8890-67aee0b5f637"
+        },
+        {
+          "Id": "01697f47-9723-4b35-9e02-7fe8a5724992",
+          "Number": 96,
+          "Code": "33",
+          "ArName": "المصاريف الخدمية",
+          "EnName": "Service Expenses",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "225fee79-676f-4fc2-955b-5f50b5ec626a"
+        },
+        {
+          "Id": "94e53056-20cd-4f20-831c-013e4c4f2158",
+          "Number": 97,
+          "Code": "331",
+          "ArName": "مصاريف الصيانة",
+          "EnName": "Maintenance Expenses",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "01697f47-9723-4b35-9e02-7fe8a5724992"
+        },
+        {
+          "Id": "0c29d9d4-3249-4532-bcf2-a95809978054",
+          "Number": 98,
+          "Code": "332",
+          "ArName": "أدوات كتابية ومطبوعات",
+          "EnName": "Stationary",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "01697f47-9723-4b35-9e02-7fe8a5724992"
+        },
+        {
+          "Id": "b174872f-0deb-4185-8878-898a54ca1bfe",
+          "Number": 99,
+          "Code": "333",
+          "ArName": "دعاية وإعلان",
+          "EnName": "Publicity and Advertising",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "01697f47-9723-4b35-9e02-7fe8a5724992"
+        },
+        {
+          "Id": "651bc4f6-e808-4281-9673-c2864d4c2df8",
+          "Number": 100,
+          "Code": "334",
+          "ArName": "نقل وإنتقال",
+          "EnName": "Transportation",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "01697f47-9723-4b35-9e02-7fe8a5724992"
+        },
+        {
+          "Id": "a157c913-3b7b-477c-b3be-d4f06dde46ea",
+          "Number": 101,
+          "Code": "335",
+          "ArName": "إنارة ومياه",
+          "EnName": "acc335",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "01697f47-9723-4b35-9e02-7fe8a5724992"
+        },
+        {
+          "Id": "010d05cb-cc46-4aca-8fc5-62e5bdb8a571",
+          "Number": 102,
+          "Code": "336",
+          "ArName": "بريد وبرق وهاتف",
+          "EnName": "acc336",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "01697f47-9723-4b35-9e02-7fe8a5724992"
+        },
+        {
+          "Id": "b1170e02-515b-42c0-b543-0c1bd373d4dd",
+          "Number": 103,
+          "Code": "337",
+          "ArName": "مصاريف عامة متنوعة",
+          "EnName": "General other Expenses",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "01697f47-9723-4b35-9e02-7fe8a5724992"
+        },
+        {
+          "Id": "389d9c01-a9bc-4144-8ad2-b2e42ee7cfd3",
+          "Number": 104,
+          "Code": "3371",
+          "ArName": "اشتراكات هيئات عامة",
+          "EnName": "General Organizations Subscription",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "b1170e02-515b-42c0-b543-0c1bd373d4dd"
+        },
+        {
+          "Id": "51d6d049-1f9f-4435-9f43-77a30b846bfd",
+          "Number": 105,
+          "Code": "3372",
+          "ArName": "التأمين عدا العاملين",
+          "EnName": "acc3372",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "b1170e02-515b-42c0-b543-0c1bd373d4dd"
+        },
+        {
+          "Id": "dc98cc21-607c-475a-a386-dcafc6c4c2d8",
+          "Number": 106,
+          "Code": "3373",
+          "ArName": "عمولات مبيعات",
+          "EnName": "Sales commissions",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "b1170e02-515b-42c0-b543-0c1bd373d4dd"
+        },
+        {
+          "Id": "4b5ad920-32d4-4b4d-876a-c55e1a711118",
+          "Number": 107,
+          "Code": "3374",
+          "ArName": "مصاريف أخرى مختلفة",
+          "EnName": "Another Expenses",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "b1170e02-515b-42c0-b543-0c1bd373d4dd"
+        },
+        {
+          "Id": "7b8696a8-05bd-47ef-934b-b07e66c83472",
+          "Number": 108,
+          "Code": "34",
+          "ArName": "مشتريات بغرض البيع",
+          "EnName": "Purcheses for sale",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "225fee79-676f-4fc2-955b-5f50b5ec626a"
+        },
+        {
+          "Id": "e3b97cb2-4494-4b56-9e25-0eac5b2cf380",
+          "Number": 109,
+          "Code": "341",
+          "ArName": "المشتريات العامة",
+          "EnName": "Purchases General",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "7b8696a8-05bd-47ef-934b-b07e66c83472"
+        },
+        {
+          "Id": "01bb8e9c-4c64-42c0-b7b3-59b44c88040d",
+          "Number": 110,
+          "Code": "3411",
+          "ArName": "إجمالي المشتريات",
+          "EnName": "Purchases Total",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "e3b97cb2-4494-4b56-9e25-0eac5b2cf380"
+        },
+        {
+          "Id": "a5f90981-43c5-4cfb-a550-905d60dbf6d2",
+          "Number": 111,
+          "Code": "3412",
+          "ArName": "مرتجع المشتريات",
+          "EnName": "Purchases Return",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "e3b97cb2-4494-4b56-9e25-0eac5b2cf380"
+        },
+        {
+          "Id": "dd9f59e0-774d-47d0-9681-c32ab56429e6",
+          "Number": 112,
+          "Code": "3413",
+          "ArName": "حسميات المشتريات",
+          "EnName": "Purchases Discounts",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "e3b97cb2-4494-4b56-9e25-0eac5b2cf380"
+        },
+        {
+          "Id": "e2ff4501-7d25-4bad-93c4-fd185e82bc13",
+          "Number": 113,
+          "Code": "35",
+          "ArName": "المصاريف الجارية",
+          "EnName": "Current Expenses",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "225fee79-676f-4fc2-955b-5f50b5ec626a"
+        },
+        {
+          "Id": "2809920a-07c0-428e-b76d-a08fa15d01d7",
+          "Number": 114,
+          "Code": "351",
+          "ArName": "ضرائب ورسوم",
+          "EnName": "Taxes",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "e2ff4501-7d25-4bad-93c4-fd185e82bc13"
+        },
+        {
+          "Id": "616356d8-b0c5-48cb-991d-3c1e70be6ab9",
+          "Number": 115,
+          "Code": "352",
+          "ArName": "رسوم جمركية",
+          "EnName": "Tarrif",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "e2ff4501-7d25-4bad-93c4-fd185e82bc13"
+        },
+        {
+          "Id": "a80dec26-acd7-4bac-ab13-f73aefd12ae6",
+          "Number": 116,
+          "Code": "353",
+          "ArName": "إيجارات",
+          "EnName": "Rents",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "e2ff4501-7d25-4bad-93c4-fd185e82bc13"
+        },
+        {
+          "Id": "73be3934-db8f-4296-a17f-1f56d4f93dcb",
+          "Number": 117,
+          "Code": "36",
+          "ArName": "التحويلات التخصصية",
+          "EnName": "Allocation Expenses",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "225fee79-676f-4fc2-955b-5f50b5ec626a"
+        },
+        {
+          "Id": "abcd8569-d74b-44d1-b1e8-e0ae16c7997c",
+          "Number": 118,
+          "Code": "361",
+          "ArName": "الزكاة",
+          "EnName": "Alms",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "73be3934-db8f-4296-a17f-1f56d4f93dcb"
+        },
+        {
+          "Id": "b2fbba87-06e1-4885-8719-505ccf939a0b",
+          "Number": 119,
+          "Code": "362",
+          "ArName": "تبرعات",
+          "EnName": "Contributions",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "73be3934-db8f-4296-a17f-1f56d4f93dcb"
+        },
+        {
+          "Id": "f0210ec2-16bc-4eb9-9669-54edc78e37f5",
+          "Number": 120,
+          "Code": "363",
+          "ArName": "إعانات للغير",
+          "EnName": "Subsidy",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "73be3934-db8f-4296-a17f-1f56d4f93dcb"
+        },
+        {
+          "Id": "8cbe0855-2744-4a8e-a5d0-907bf19413eb",
+          "Number": 121,
+          "Code": "364",
+          "ArName": "غرامات",
+          "EnName": "Penalties",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "73be3934-db8f-4296-a17f-1f56d4f93dcb"
+        },
+        {
+          "Id": "e597b99d-0767-4956-8f8e-8dc2f57b172c",
+          "Number": 122,
+          "Code": "365",
+          "ArName": "مصروفات سندات سابقة",
+          "EnName": "Bond Expenses",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "73be3934-db8f-4296-a17f-1f56d4f93dcb"
+        },
+        {
+          "Id": "dae60f73-8a45-421a-a438-f8ab4c2f068f",
+          "Number": 123,
+          "Code": "366",
+          "ArName": "ديون معدومة",
+          "EnName": "Bad Debts",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "73be3934-db8f-4296-a17f-1f56d4f93dcb"
+        },
+        {
+          "Id": "e85e7283-56df-4c48-8c31-8e7b40d49b54",
+          "Number": 124,
+          "Code": "367",
+          "ArName": "ضريبة دخل الأرباح",
+          "EnName": "Income Taxes",
+          "Type": 0,
+          "FinalAccountId": "4774805b-f625-401e-9040-912879cc8a0d",
+          "ParentId": "73be3934-db8f-4296-a17f-1f56d4f93dcb"
+        },
+        {
+          "Id": "2f8d65a5-3d6b-43e0-b882-cfee2aa3e0cf",
+          "Number": 125,
+          "Code": "4",
+          "ArName": "الموارد",
+          "EnName": "Revenues",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "095e6401-91cb-4f2e-8cd9-258bc9effd01",
+          "Number": 126,
+          "Code": "41",
+          "ArName": "إيرادات الخدمات",
+          "EnName": "Service Revenues",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "2f8d65a5-3d6b-43e0-b882-cfee2aa3e0cf"
+        },
+        {
+          "Id": "385d62c8-9dce-4ac8-b5fd-66ef71c14236",
+          "Number": 127,
+          "Code": "42",
+          "ArName": "إيرادات البضائع",
+          "EnName": "Goods Revenues",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "2f8d65a5-3d6b-43e0-b882-cfee2aa3e0cf"
+        },
+        {
+          "Id": "e5780974-4d56-4ecb-987b-2406991567af",
+          "Number": 128,
+          "Code": "421",
+          "ArName": "صافي المبيعات",
+          "EnName": "Sales Net",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "385d62c8-9dce-4ac8-b5fd-66ef71c14236"
+        },
+        {
+          "Id": "81bd77a1-79ba-4b11-9732-6c515765b6f8",
+          "Number": 129,
+          "Code": "4211",
+          "ArName": "إجمالي المبيعات",
+          "EnName": "Sales Total",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "e5780974-4d56-4ecb-987b-2406991567af"
+        },
+        {
+          "Id": "32e64d22-5789-4e9c-a538-f62f9d2ff49a",
+          "Number": 130,
+          "Code": "4212",
+          "ArName": "مرتجع المبيعات",
+          "EnName": "Sales Return",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "e5780974-4d56-4ecb-987b-2406991567af"
+        },
+        {
+          "Id": "e2f922c0-cd6b-4c51-ba6b-265c8090275b",
+          "Number": 131,
+          "Code": "4213",
+          "ArName": "حسميات المبيعات",
+          "EnName": "Sales Discount",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "e5780974-4d56-4ecb-987b-2406991567af"
+        },
+        {
+          "Id": "825e1520-d9c1-480b-a49d-ec3d33e247a9",
+          "Number": 132,
+          "Code": "4214",
+          "ArName": "نماذج وهدايا",
+          "EnName": "Samples and Gifts",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "e5780974-4d56-4ecb-987b-2406991567af"
+        },
+        {
+          "Id": "2cf52513-993b-4d1f-bd32-ab45d3d4d48e",
+          "Number": 133,
+          "Code": "43",
+          "ArName": "إيرادات تحويلية",
+          "EnName": "Other Revenues",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "2f8d65a5-3d6b-43e0-b882-cfee2aa3e0cf"
+        },
+        {
+          "Id": "c7493a60-8490-4490-afce-8a7c4564268e",
+          "Number": 134,
+          "Code": "431",
+          "ArName": "إيرادات الأوراق المالية",
+          "EnName": "Notes Revenues",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "2cf52513-993b-4d1f-bd32-ab45d3d4d48e"
+        },
+        {
+          "Id": "22712211-d79d-467d-bb53-2e56cb5df707",
+          "Number": 135,
+          "Code": "432",
+          "ArName": "إيجارات دائنة",
+          "EnName": "Credit Rents",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "2cf52513-993b-4d1f-bd32-ab45d3d4d48e"
+        },
+        {
+          "Id": "07ba18d0-324e-48fb-aa8b-7fea4a247ef3",
+          "Number": 136,
+          "Code": "433",
+          "ArName": "إيرادات متنوعة",
+          "EnName": "Another Revenues",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "2cf52513-993b-4d1f-bd32-ab45d3d4d48e"
+        },
+        {
+          "Id": "69e96f99-cd52-4d5a-a81e-3efe2e5b5d7a",
+          "Number": 137,
+          "Code": "434",
+          "ArName": "تعويضات وغرامات على الغير",
+          "EnName": "Compensation",
+          "Type": 0,
+          "FinalAccountId": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "ParentId": "2cf52513-993b-4d1f-bd32-ab45d3d4d48e"
+        },
+        {
+          "Id": "d103b295-22a5-4c5c-bc26-b066d1a61397",
+          "Number": 1,
+          "Code": "9",
+          "ArName": "الميزانية",
+          "EnName": "Balance Sheet",
+          "Type": 1,
+          "FinalAccountId": "00000000-0000-0000-0000-000000000000",
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        },
+        {
+          "Id": "4774805b-f625-401e-9040-912879cc8a0d",
+          "Number": 2,
+          "Code": "91",
+          "ArName": "الأرباح والخسائر",
+          "EnName": "Profit and Loss A/C",
+          "Type": 1,
+          "FinalAccountId": "00000000-0000-0000-0000-000000000000",
+          "ParentId": "d103b295-22a5-4c5c-bc26-b066d1a61397"
+        },
+        {
+          "Id": "168564a7-c7b3-4761-93e2-294aea069ca6",
+          "Number": 3,
+          "Code": "911",
+          "ArName": "المتاجرة",
+          "EnName": "Trading A/C",
+          "Type": 1,
+          "FinalAccountId": "00000000-0000-0000-0000-000000000000",
+          "ParentId": "4774805b-f625-401e-9040-912879cc8a0d"
+        }
+      ],
+      "ArName": "دليل النظام المحاسبي السوري الموحد",
+      "EnName": "Syria Universal Chart",
+      "DefaultItemAccountId": "32943d07-59ac-4895-8785-8312cdfff4f8",
+      "DefaultCashAccountId": "EAB2EA68-BC43-49E2-80EA-07B4F2B2EC45",
+      "Order": 2,
+      "Id": 3
+    }
+  ],
+  "Currencies": [
+    {
+      "Id": 13,
+      "Order": 13,
+      "Code": "ر.ق.",
+      "ISOCode": "QAR",
+      "ArName": "ريال قطري",
+      "EnName": "Qatar Riyal",
+      "PartArName": "هللة",
+      "PartEnName": "Dirhams",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 3,
+      "Order": 3,
+      "Code": "€",
+      "ISOCode": "EUR",
+      "ArName": "يورو",
+      "EnName": "Euro",
+      "PartArName": "سنت",
+      "PartEnName": "Cent",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 8,
+      "Order": 8,
+      "Code": "د.أ.",
+      "ISOCode": "JOD",
+      "ArName": "دينار أردني",
+      "EnName": "Jordan Dinar",
+      "PartArName": "فلس",
+      "PartEnName": "Fils",
+      "PartRate": 1000.0
+    },
+    {
+      "Id": 6,
+      "Order": 6,
+      "Code": "ر.س.",
+      "ISOCode": "SAR",
+      "ArName": "ريال سعودي",
+      "EnName": "Saudi Riyal",
+      "PartArName": "هللة",
+      "PartEnName": "Halalat",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 1,
+      "Order": 1,
+      "Code": "$",
+      "ISOCode": "USD",
+      "ArName": "دولار أمريكي",
+      "EnName": "US Dollar",
+      "PartArName": "سنت",
+      "PartEnName": "Cent",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 18,
+      "Order": 18,
+      "Code": "د.ج.",
+      "ISOCode": "DZD",
+      "ArName": "دينار جزائري",
+      "EnName": "Algerian Dinar",
+      "PartArName": "سنتيم",
+      "PartEnName": "Santim",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 17,
+      "Order": 17,
+      "Code": "¥",
+      "ISOCode": "JPY",
+      "ArName": "ين ياباني",
+      "EnName": "Japanese Yen",
+      "PartArName": "رين",
+      "PartEnName": "Rin",
+      "PartRate": 1000.0
+    },
+    {
+      "Id": 10,
+      "Order": 10,
+      "Code": "د.ع",
+      "ISOCode": "IQD",
+      "ArName": "دينار عراقي",
+      "EnName": "Iraq Dinar",
+      "PartArName": "فلس",
+      "PartEnName": "Fils",
+      "PartRate": 1000.0
+    },
+    {
+      "Id": 11,
+      "Order": 11,
+      "Code": "د.ب",
+      "ISOCode": "BHD",
+      "ArName": "دينار بحريني",
+      "EnName": "Bahrain Dinar",
+      "PartArName": "فلس",
+      "PartEnName": "Fils",
+      "PartRate": 1000.0
+    },
+    {
+      "Id": 16,
+      "Order": 16,
+      "Code": "CHF",
+      "ISOCode": "CHF",
+      "ArName": "فرنك سويسري",
+      "EnName": "Swiss Franc",
+      "PartArName": "راب",
+      "PartEnName": "Rappen",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 14,
+      "Order": 14,
+      "Code": "DEM",
+      "ISOCode": "DEM",
+      "ArName": "مارك ألماني",
+      "EnName": "German Mark",
+      "PartArName": "بفنغ",
+      "PartEnName": "Pfennig",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 9,
+      "Order": 9,
+      "Code": "د.ك.",
+      "ISOCode": "KWD",
+      "ArName": "دينار كويتي",
+      "EnName": "Kuwait Dinar",
+      "PartArName": "فلس",
+      "PartEnName": "Fils",
+      "PartRate": 1000.0
+    },
+    {
+      "Id": 2,
+      "Order": 2,
+      "Code": "ل.س.",
+      "ISOCode": "SYP",
+      "ArName": "ليرة سورية",
+      "EnName": "Syrian Pound",
+      "PartArName": "قرش",
+      "PartEnName": "Piasters",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 7,
+      "Order": 7,
+      "Code": "د.هـ.",
+      "ISOCode": "AED",
+      "ArName": "درهم إماراتي",
+      "EnName": "UAE Dirham",
+      "PartArName": "فلس",
+      "PartEnName": "Fils",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 21,
+      "Order": 21,
+      "Code": "د.ت.",
+      "ISOCode": "TND",
+      "ArName": "دينار تونسي",
+      "EnName": "Tunisian dinar",
+      "PartArName": "مليم",
+      "PartEnName": "millime",
+      "PartRate": 1000.0
+    },
+    {
+      "Id": 19,
+      "Order": 19,
+      "Code": "ر.ي.",
+      "ISOCode": "YER",
+      "ArName": "ريال يمني",
+      "EnName": "Yemen Riyal",
+      "PartArName": "هللة",
+      "PartEnName": "Fils",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 4,
+      "Order": 4,
+      "Code": "£",
+      "ISOCode": "GBP",
+      "ArName": "جنيه استرليني",
+      "EnName": "Pound Sterling",
+      "PartArName": "بنس",
+      "PartEnName": "Pens",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 15,
+      "Order": 15,
+      "Code": "ل.ت",
+      "ISOCode": "TRY",
+      "ArName": "ليرة تركي",
+      "EnName": "Turkish lira",
+      "PartArName": "قرش",
+      "PartEnName": "Piasters",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 20,
+      "Order": 20,
+      "Code": "ر.ع.",
+      "ISOCode": "OMR",
+      "ArName": "ريال عماني",
+      "EnName": "Omani Rial",
+      "PartArName": "بيسة",
+      "PartEnName": "baizas",
+      "PartRate": 1000.0
+    },
+    {
+      "Id": 23,
+      "Order": 23,
+      "Code": "R$",
+      "ISOCode": "BRL",
+      "ArName": "ريال برازيلي",
+      "EnName": "Brazilian Real",
+      "PartArName": "سنتافو",
+      "PartEnName": "Centavo",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 5,
+      "Order": 5,
+      "Code": "ل.ل",
+      "ISOCode": "LBP",
+      "ArName": "ليرة لبنانية",
+      "EnName": "Lebanese Pound",
+      "PartArName": "قرش",
+      "PartEnName": "Piastres",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 22,
+      "Order": 22,
+      "Code": "ر.ا.",
+      "ISOCode": "IRR",
+      "ArName": "ريال إيراني",
+      "EnName": "Iranian Rial",
+      "PartArName": "دينار",
+      "PartEnName": "Dinar",
+      "PartRate": 100.0
+    },
+    {
+      "Id": 12,
+      "Order": 12,
+      "Code": "جـ.م.",
+      "ISOCode": "EGP",
+      "ArName": "جنيه مصري",
+      "EnName": "Egyptian Pound",
+      "PartArName": "قرش",
+      "PartEnName": "Piasters",
+      "PartRate": 100.0
+    }
+  ]
+}

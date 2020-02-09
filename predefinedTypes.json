@@ -1,0 +1,34 @@
+﻿{
+  "BillTypes": [
+    {
+      "Type": 0,
+      "BillTypeOrder": 0,
+      "NotGenerateEntry": true,
+      "AutoGenerateEntry": true,
+      "AutoPostEntryToAccounts": true,
+      "PreventNegativeOutput": false,
+      "NoPostToStores": false,
+      "AutoPostToStore": false,
+      "ShowStoreField": true,
+      "ShowCostCenterldField": true,
+      "ShowCustomerAccountldField": true,
+      "ShowPayTypeField": true
+    }
+  ],
+  "PayTypes": [
+    {
+      "Type": 0,
+      "BillTypeOrder": 0,
+      "NotGenerateEntry": true,
+      "AutoGenerateEntry": true,
+      "AutoPostEntryToAccounts": true,
+      "PreventNegativeOutput": false,
+      "NoPostToStores": false,
+      "AutoPostToStore": false,
+      "ShowStoreField": true,
+      "ShowCostCenterldField": true,
+      "ShowCustomerAccountldField": true,
+      "ShowPayTypeField": true
+    }
+  ]
+}
